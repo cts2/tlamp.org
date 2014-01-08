@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'uicons__tools_and_gadgetsRg';
+    src: url('uicons_tools_gadgets_transport-webfont.eot');
+    src: url('uicons_tools_gadgets_transport-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_tools_gadgets_transport-webfont.woff') format('woff'),
+         url('uicons_tools_gadgets_transport-webfont.ttf') format('truetype'),
+         url('uicons_tools_gadgets_transport-webfont.svg#uicons__tools_and_gadgetsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.uicontg{font-family:uicons__tools_and_gadgetsRg;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+
+
+@font-face {
+    font-family: 'uicons__toys_and_sportregular';
+    src: url('uicons_toys_and_sport-webfont.eot');
+    src: url('uicons_toys_and_sport-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_toys_and_sport-webfont.woff') format('woff'),
+         url('uicons_toys_and_sport-webfont.ttf') format('truetype'),
+         url('uicons_toys_and_sport-webfont.svg#uicons__toys_and_sportregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.uiconts{font-family:uicons__toys_and_sportregular;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+
+
+@font-face {
+    font-family: 'uicons_business_and_financeRg';
+    src: url('uicons_business_and_finance-webfont.eot');
+    src: url('uicons_business_and_finance-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_business_and_finance-webfont.woff') format('woff'),
+         url('uicons_business_and_finance-webfont.ttf') format('truetype'),
+         url('uicons_business_and_finance-webfont.svg#uicons_business_and_financeRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.uiconbf{font-family:uicons_business_and_financeRg;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+
+@font-face {
+    font-family: 'uicons__communications_and_Rg';
+    src: url('uicons_communications_tech-webfont.eot');
+    src: url('uicons_communications_tech-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_communications_tech-webfont.woff') format('woff'),
+         url('uicons_communications_tech-webfont.ttf') format('truetype'),
+         url('uicons_communications_tech-webfont.svg#uicons__communications_and_Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.uiconc{font-family:uicons__communications_and_Rg;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+
+
+@font-face {
+    font-family: 'uicons__controls_and_navigaRg';
+    src: url('uicons_controls_and_navigation-webfont.eot');
+    src: url('uicons_controls_and_navigation-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_controls_and_navigation-webfont.woff') format('woff'),
+         url('uicons_controls_and_navigation-webfont.ttf') format('truetype'),
+         url('uicons_controls_and_navigation-webfont.svg#uicons__controls_and_navigaRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.uiconcn{font-family:uicons__controls_and_navigaRg;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+
+
+@font-face {
+    font-family: 'uicons_general_pictogramsRg';
+    src: url('uicons_general_pictograms_i-webfont.eot');
+    src: url('uicons_general_pictograms_i-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_general_pictograms_i-webfont.woff') format('woff'),
+         url('uicons_general_pictograms_i-webfont.ttf') format('truetype'),
+         url('uicons_general_pictograms_i-webfont.svg#uicons_general_pictogramsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.uicongp1{font-family:uicons_general_pictogramsRg;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+
+
+@font-face {
+    font-family: 'uicons_general_pictograms_iRg';
+    src: url('uicons_general_pictograms_ii-webfont.eot');
+    src: url('uicons_general_pictograms_ii-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_general_pictograms_ii-webfont.woff') format('woff'),
+         url('uicons_general_pictograms_ii-webfont.ttf') format('truetype'),
+         url('uicons_general_pictograms_ii-webfont.svg#uicons_general_pictograms_iRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.uicongp2{font-family:uicons_general_pictograms_iRg;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+
+
+@font-face {
+    font-family: 'uicons__social_mediaregular';
+    src: url('uicons_social_media-webfont.eot');
+    src: url('uicons_social_media-webfont.eot?#iefix') format('embedded-opentype'),
+         url('uicons_social_media-webfont.woff') format('woff'),
+         url('uicons_social_media-webfont.ttf') format('truetype'),
+         url('uicons_social_media-webfont.svg#uicons__social_mediaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.uiconsm{font-family:uicons__social_mediaregular;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}

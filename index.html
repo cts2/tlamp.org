@@ -1,0 +1,657 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+		<!--  CSS -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="font/uicon/uicon.css">
+		<link rel="stylesheet" href="font/flaticon/flaticon.css">
+        <link rel="stylesheet" href="css/typeahead.js-bootstrap.css">
+        <link rel="stylesheet" href="css/main.css" >
+		
+		<title>geppetto</title>
+		
+	</head>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	    <!-- Scrollspy set in the body -->
+    <body id="home" data-spy="scroll" data-target=".main-nav" data-offset="73">
+
+    <!--///////////////////////////////////////// PARALLAX BACKGROUND ////////////////////////////////////////-->
+
+    <!-- image is set in the CSS as a background image -->
+    <div id="parallax"></div>
+
+    <!--///////////////////////////////////////// end PARALLAX BACKGROUND ////////////////////////////////////////-->
+
+
+    
+    <!--/////////////////////////////////////// NAVIGATION BAR ////////////////////////////////////////-->
+
+    <section id="header">
+
+        <nav class="navbar navbar-fixed-top" role="navigation">
+
+            <div class="navbar-inner">
+                <div class="container">
+
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#navigation"></button>
+
+                    <!-- Logo goes here - replace the image with your -->
+                    <a href="index.html" class="navbar-brand">TLAMP<div id="logo" alt="TLAMP"></div></a>
+
+
+                    <div class="collapse navbar-collapse main-nav" id="navigation">
+
+
+                        <ul class="nav pull-right">
+
+                            <!-- Menu items go here -->
+                            <li class="active hidden"><a href="#home">Home</a></li>
+                            <li><a href="#terminology">Terminology</a></li>
+                            <li><a href="#widgets">Widgets</a></li>
+                            <li><a href="#info">Features</a></li>
+                            <li><a href="#getStarted">Get Started</a></li>
+                            <li><a href="#getinvolved">Get Involved</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+        
+                            <!-- If you want sub-menu items, do them like this
+                            <li>
+                                <ul>
+                                  <li><a href="#">Item 1</a></li>
+                                  <li><a href="#">Item 2</a></li>
+                                </ul>
+                            </li> 
+                            You just need to delete these comment lines -->
+                        </ul>
+
+                    </div><!-- /nav-collapse -->
+                </div><!-- /container -->
+            </div><!-- /navbar-inner -->
+        </nav>
+
+    </section>
+
+    <!--//////////////////////////////////////// end NAVIGATION BAR ////////////////////////////////////////-->
+
+    
+
+    <!--/////////////////////////////////////// HERO SECTION ////////////////////////////////////////-->
+
+    <section id="hero">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 intro">
+                    <div id="glogo">
+                        <img src="images/CTS2-logo-small.jpg"/>
+                    </div>
+                    <p class="lead">TLAMP - Self Contained Terminology Solution</p>
+                    <a href="..vm-link-here" class="btn btn-hg btn-primary">Download <i class="fa fa-download"></i></a>
+                    <a href="..api-link-here" target="_blank" class="btn btn-hg btn-inverse inline">API <i class="fa fa-group"></i></a>
+                </div>
+
+                <div class="col-md-6 intro text-center">
+                    <p class="lead">Find out more about how TLAMP can help you quickly get started with Terminology Services.</p>
+                    <a href="#terminology" class="btn btn-hg btn-primary">Learn More <i class="fa fa-info-circle"></i></a>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+    </section>
+
+    <!--///////////////////////////////////////////////// end HERO SECTION ////////////////////////////////////////-->
+
+
+
+    <!--/////////////////////////////////////// FEATURES SECTION ////////////////////////////////////////-->
+
+    <section id="terminology">
+
+        <div class="container">
+
+            <header>
+                <h1>Standard Terminologies</h1>
+                <p class="lead">The simulation platform focused on what matters to you.</p>
+            </header>
+
+            <div class="row">
+                
+                <!-- Feature Item 1 -->
+                <div class="col-md-4 text-center">
+                    <!--
+                    <div class="feature-icon">
+                        <icon class="itransparent i6x ficon-robot3"></icon>
+                    </div>
+                    -->
+                    <h4>SNOMED CT®</h4>
+                    <p>Geppetto is a web-based multi-algorithm, multi-scale simulation platform engineered to support 
+                    the simulation of complex biological systems and their surrounding environment.</p>
+                </div>
+
+                <!-- Feature Item 2 -->
+                <div class="col-md-4 text-center">
+                    <!--
+                    <div class="feature-icon">
+                        <icon class="itransparent i6x ficon-chemical"></icon>
+                    </div>
+                    -->
+                    <h4>HL7®</h4>
+                    <p>Engineered together with scientists, Geppetto lets you integrate different simulators and models. 
+                    Independent modules allow the user to read different standard modeling formats and to simulate different
+                    aspects of reality.</p>
+                </div>
+
+                <!-- Feature Item 3 -->
+                <div class="col-md-4 text-center">
+                    <!--
+                    <div class="feature-icon">
+                       <icon class="itransparent i6x ficon-leaf1"></icon>
+                    </div>
+                    -->
+                    <h4>LOINC®</h4>
+                    <p>Geppetto is entirely open source and engineers, scientists and developers are welcome to contribute 
+                    to its development by adding functionality to existing modules or by creating new ones!</p>
+                </div>
+
+            </div><!-- /row -->
+
+            <div class="row">
+                <a href="#widgets" class="btn btn-hg btn-primary">See them in action <i class="fa fa-info-circle"></i></a>
+            </div>
+        </div><!-- /container -->
+
+    </section>
+
+    <!--/////////////////////////////////////// end INFO SECTION ////////////////////////////////////////-->
+
+	<section id="widgets">
+        <div class="container">
+            <div class="row">
+                <p class="lead"><i class="fa fa-gears fa-2x"></i> Build tools and widgets using the CTS2 JSON format</p>
+            </div>
+            <div class="row">
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                <div class="col-md-6">
+                    <p class="lead">Populate Dropdowns</p>
+                    <div class="row">
+                    <a href="https://github/cts2/cts2dropdown/"><i class="fa fa-info-circle fa-2x"></i> Learn more</a>
+                    </div>
+                    <div class="row">
+                    <a href="http://cts2.github.io/cts2dropdown/"><i class="fa fa-github fa-2x"></i> Get the Code</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+
+                    <select class="cts2-valueset" data-uri="http://hl7.org/ontology/vocab/uv/vs/ActDietCode/2012-11-21"></select>
+
+                    <select class="cts2-valueset" data-uri="http://hl7.org/ontology/vocab/uv/vs/ActIncidentCode/2012-11-21"></select>
+
+                </div>
+
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                <div class="col-md-6">
+                    <p class="lead">Annotate Text</p>
+                    <div class="row">
+                        <a href="https://github.com/cts2/bootstrap-cts2/"><i class="fa fa-github fa-2x"></i> Get the Code</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+                    <span class="annotationExample">
+                         Pending tests: <b><span class="cts2-annotated" data-uri="http://id.loinc.org/id/14744-7">Glucose (hover)</span></b>
+    </span>
+                </div>
+
+                        </div>
+                    </div>
+
+            </div><!-- /row -->
+
+            <div class="row">
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <div class="col-md-6">
+                            <p class="lead">Entity Search</p>
+                            <div class="row">
+                                <a href="https://github.com/cts2/bootstrap-cts2/"><i class="fa fa-github fa-2x"></i> Get the Code</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                                <div class="example example-entities">
+                                    <form>
+                                        <input id="entities" name="entities" class="typeahead form-control input-hg" placeholder="Start typing..." type="text"/>
+                                    </form>
+
+                                </div>
+
+                        </div>
+
+                            </div>
+
+                    </div>
+                </div>
+
+            </div><!-- /row -->
+
+
+        </div><!-- /container -->
+
+    </section>
+
+    <section id="info">
+        <!--/////////// And here's the gray background section! //////////-->
+        <div class="info-section-gray" id="slideshow">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <!--////////// CAROUSEL SLIDER //////////-->
+
+                        <!-- declaring the carousel slides -->
+                        <div id="myCarousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- The carousel items themselves -->
+                            <div class="carousel-inner">
+
+
+                                <div class="active item gallery-popup">
+                                    <a href="images/OMG-logo-high-res.jpg"><img src="images/OMG-logo-high-res.jpg" alt="placeholder image" class="img-responsive"></a>
+                                    <div class="carousel-caption">
+                                        <h4>Standards Based</h4>
+                                        <p>TLAMP conforms to the Object Management Group Standard (OMG)® CTS2 Specification.</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="item gallery-popup">
+                                    <a href="images/f1.png"><img src="images/open-source.png" alt="placeholder image" class="img-responsive"></a>
+                                    <div class="carousel-caption">
+                                        <h4>Open Source</h4>
+                                        <p>The specification, client, and implementations are built on open-source tools, languages, and frameworks.</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="item gallery-popup">
+                                    <a href="images/restful_api.jpg"><img src="images/restful_api.jpg" alt="placeholder image" class="img-responsive"></a>
+                                    <div class="carousel-caption">
+                                        <h4>REST Based</h4>
+                                        <p>Use lightweight clients and enable web applications using the CTS2 REST and JSON APIs.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Carousel navigation arrows -->
+                            <a class="carousel-control left" style="color:black" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                            <a class="carousel-control right" style="color:black" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+
+                    </div>
+                    <!--////////// end of CAROUSEL SLIDER //////////-->
+
+                    <div class="col-md-6">
+                        <h3>Features</h3>
+                        <p class="lead">TLAMP features to help you quickly utilize terminologies.</p>
+                        <p>TLAMP is a Standards based RESTful service built on Open Source and freely available tools.</p>
+                    </div>
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </div><!-- /info-section-gray -->
+
+
+    </section>
+
+    <!--/////////////////////////////////////// end INFO SECTION ////////////////////////////////////////-->
+
+    <section id="getStarted">
+        <div class="info-section-white">
+
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-md-12">
+                        <div class="row text-center"><i class="fa fa-github i10x"></i></div>
+                        <h3>Get started!</h3>
+
+                        <p class="lead">1. Download the Virtual Machine Image</p>
+                        <p><i class="fa fa-wrench"></i> Configure the VM</p>
+                        <p class="lead">2. Explore the API</p>
+                        <p><i class="fa fa-exchange"></i> Show REST Signatures</p>
+
+                    </div>
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </div><!-- /info-section-white -->
+    </section>
+
+
+    <section id="getinvolved">
+        <div class="info-section-white">
+
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-md-12">
+                    	<div class="row text-center"><i class="fa fa-github i20x"></i></div>
+                        <h3>Get involved!</h3>
+
+                        <p class="lead">Help us building the next generation simulation platform!</p>
+
+                        <p>Geppetto is entirely open source and is being built by a growing community of talented engineers and scientists. 
+                            Geppetto uses different languages to achieve different goals.  
+                            Its core and back-end are built in Java to provide a solid and performant infrastructure.
+                            The front-end is built using the latest HTML5 and Javascript awesome. A module to support 
+                            scientists to write Python code to script it is also being built.
+                        	Geppetto is being developed using the Eclipse platform and uses technologies like 
+                        	<a href="http://www.osgi.org/" target="_blank">OSGi</a>, 
+                        	<a href="http://www.springsource.org/spring-framework" target="_blank">Spring Framework</a>, 
+                        	<a href="http://www.khronos.org/opencl/" target="_blank">OpenCL</a> and 
+                        	<a href="http://maven.apache.org/" target="_blank">Maven</a>.
+							Geppetto's front-end is written using 
+							<a href="http://mrdoob.github.com/three.js/" target="_blank">THREE.js</a> and 
+							<a href="http://www.khronos.org/webgl/" target="_blank">WebGL</a>.
+							The back-end and the front-end communicate by exchanging 
+							<a href="http://www.json.org/" target="_blank">JSON</a> messages through 
+							<a href="http://www.websocket.org/" target="_blank">WebSocket</a>.
+							Geppetto runs on the Eclipse Virgo WebServer and can be deployed on different infrastructures including 
+							cloud-based ones like Amazon <a href="http://aws.amazon.com/ec2/" target="_blank">EC2</a>. 
+							<strong>Anything sound familiar?</strong></p> 
+                        <p>Geppetto is multi-platform and works on Linux, Mac OsX and Windows, so no matter on what platform you develop 
+                        there is a way for you to run it and add 
+                        	<span class="popover-trigger" data-toggle="popover" data-placement="top" title="What qualifies?" data-content="New simulator modules, new mathematical solvers, new GUI widgets, bug fixes, you name it!">fantastic contributions</span>.</p> 
+                        	
+						<p class="lead">Show me the code!</p>
+                        <p>Right!  Geppetto is hosted on GitHub as you would expect. Every module has its own repository 
+                        to provide flexible ways of branching individual components. 
+                        	For every module we have <span class="tooltip-trigger" data-toggle="tooltip" title="Features are usually developed in their own branch to not get in the way until they are ready!">at least</span> 
+                        	two branches, development and master. The development branch gets merged into master each 
+                        	<span class="tooltip-trigger" data-toggle="tooltip" title="Yes we rock :)">monthly release</span>. 
+                        	If you want to contribute you can either go 
+                        	<span class="tooltip-trigger" data-toggle="tooltip" title="Fork the development branch, do your magic and create a pull-request!">straight to the code</span> 
+                        	or reach out to us dropping an <a href="mailto:info@geppetto.org">email</a>, we will show you 
+                        	around and help you contribute in your favorite way!</p> 
+                        	
+                        <a href="https://github.com/openworm/OpenWorm/wiki/Geppetto---Repositories" target="_blank" class="btn btn-primary btn-hg">Source code<i class="fa fa-code"></i></a>
+                        <a href="https://github.com/openworm/OpenWorm/wiki/Geppetto--Overview" target="_blank" class="btn btn-primary btn-hg inline">Wiki <i class="fa fa-file-text"></i></a>
+                    </div> 
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </div><!-- /info-section-white -->
+        </section>	
+        
+
+
+
+
+
+
+
+    <!--/////////////////////////////////////// FAQ SECTION ////////////////////////////////////////-->
+
+    <section id="faq">
+
+        <div class="container">
+
+            <header>
+                <h1>F.A.Q.</h1>
+                <p class="lead">Find some answers to the most common questions about Geppetto!</p>
+            </header>
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <!--////////// Accordion Toggle //////////-->
+                    <div class="panel-group" id="accordion">
+                     
+                        <!-- PANEL 1 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    Why are you building Geppetto?
+                                    </a>
+                                </h4>
+                            </div>
+                            
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Beside the functional requirements, Geppetto's goal is to move away from the 
+                                    monolithic approach to software that is usually found in academic programming projects. </p>
+									<p>Computational neuroscience has produced software systems, including NEURON and Genesis, 
+									that are extremely useful for simulating systems of neurons that include biophysical 
+									details (<a href="http://g.ua/Mhos">Brette et al, 2007</a>).  A range 
+									of other algorithms have been devised in other areas of computational biology 
+									(<a href="http://g.ua/MhoV">Barnes &amp; Chu, 2010</a>) for which simulators have 
+									been produced 
+									(<a href="http://web.sfc.keio.ac.jp/%7Eshafi/takahashi-thesis.pdf">Takahashi, 2004</a>).  
+									Several investigations have pointed to the challenges in building a single system that 
+									integrates multiple simulation algorithms together into a single biological model 
+									(<a href="http://g.ua/Mhx1">Takahashi et al., 2002</a>, 
+									<a href="http://dx.doi.org/10.1007/978-3-642-02879-3">Dada and Mendes, 2007</a>, 
+									<a href="http://g.ua/Mhxa">Cornelis et al., 2012</a>).  </p>
+									<p>Geppetto aims to address these scientific and engineering challenges. 
+									Geppetto's design leverages cutting edge software technologies.  Its architecture 
+									and development follows industry standards. </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- PANEL 2 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    How is Geppetto development funded? 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Building great software takes time. And money. Geppetto is no exception and as 
+                                    many open-source projects it is funded by a hybrid model. Geppetto's development 
+                                    is supported by both awesome volunteer contributors and 
+                                    by external companies and organisations.</p>
+                                    <p>Commercial companies, academic institutions and independent research labs 
+                                    are welcome to get in touch with <a href="mailto:info@geppetto.org" target="_blank">us</a> 
+                                    to discuss collaborations and grant applications.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PANEL 3 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    What is Geppetto's relationship with OpenWorm?
+                                    </a>
+                                </h4>
+                            </div>
+                            
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>The decision to build Geppetto came after an analysis of the requirements for a 
+                                    platform able to support the <a href="http://openworm.org" target="_blank">OpenWorm</a> 
+                                    full-scale simulation of the C. elegans.</p>
+                                    <p>Geppetto's architecture is generic and therefore the simulation of the C.elegans 
+                                    is just one specific simulation it is capable of.  Geppetto's modules 
+                                    can be built to simulate and integrate any complex system.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PANEL 4 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                    What license does Gepetto have?
+                                    </a>
+                                </h4>
+                            </div>
+                            
+                            <div id="collapseFour" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Geppetto is released under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!--////////// end of Accordion Toggle //////////-->              
+
+
+                </div><!-- /col-md-6 -->
+
+                <div class="col-md-6">
+
+                    <div class="row contact-intro">
+                        <div class="col-md-2 text-right">
+                        	<!-- <img src="images/icons/support.svg" alt="" /> -->
+                        </div>
+                        <div class="col-md-9"><p class="lead">Didn't find what you were looking for? Check out our <a href="http://informatics.mayo.edu/cts2" target="_blank">website</a></p></div>
+                    </div>
+
+                </div><!-- /col-md-6-->
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!--/////////////////////////////////////// end FAQ SECTION ////////////////////////////////////////-->
+
+
+
+    <!--//////////////////////////////////////// TWITTER SECTION ////////////////////////////////////////
+
+    <section id="twitter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <img src="images/icons/chat.svg" alt="" />
+                    <p class="lead"><span id="tweets-feed" class="lead"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--//////////////////////////////////////// TWITTER SECTION ////////////////////////////////////////-->
+
+
+
+    <!--//////////////////////////////////////// FOOTER SECTION ////////////////////////////////////////-->
+    <section id="footer">
+        <div class="bottom-menu-inverse">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Copyright &copy; 2013 Geppetto.</p>
+                    </div>
+
+                    <!--<div class="col-md-6 social">
+                        <ul class="bottom-icons">
+                             <li>
+                              <a href="#" class="fui-twitter"></a>
+                            </li>
+                             <li>
+                              <a href="#" class="fui-googleplus"></a>
+                            </li>
+                          </ul>                      
+                    </div>-->
+                </div>
+            
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+    </section>
+
+    <!--//////////////////////////////////////// end FOOTER SECTION ////////////////////////////////////////-->
+
+
+
+    <!--//////////////////////////////////////// JAVASCRIPT LOAD ////////////////////////////////////////-->
+
+    <!-- Feel free to remove the scripts you are not going to use -->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/boostrap-cts2.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.fitvids.min.js"></script>
+    <script src="js/jquery.tweet.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/typeahead.min.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+        $('.cts2-annotated').annotate();
+
+        $('.cts2-valueset').valueset();
+
+        $('.example-entities .typeahead').typeahead({
+            name: 'entities',
+            valueKey: 'designation',
+            remote: {
+                url : 'http://bmidev4:5555/cts2/codesystem/NCI_Thesaurus/version/10.10a/entities?matchvalue=%QUERY&format=json&callback=?',
+                filter: function (data) {
+                    var entryList =  data.entityDirectory.entryList;
+                    var entities = [];
+                    for(i in entryList){
+                        entities.push(entryList[i].knownEntityDescriptionList[0].designation); //Only shows the first entity description
+                    }
+                    return entities;
+                },
+                rateLimitWait : 600
+            },
+            limit: 3
+        });
+    </script>
+    <!--//////////////////////////////////////// end JAVASCRIPT LOAD ////////////////////////////////////////-->
+
+  </body></html>
