@@ -5935,3 +5935,7 @@ input {
 .tt-hint {
     display: none;
 }
+
+.carousel-control {
+    color:black;
+}

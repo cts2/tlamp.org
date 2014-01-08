@@ -78,6 +78,35 @@
                     }
                 });
             });
+        },
+
+        tree: function (options) {
+
+            var defaults = {
+                cts2Service: "http://10.148.2.82:8888",
+                uriDataAttr: 'uri',
+                hrefDataAttr: 'href'
+            };
+
+            options = $.extend(defaults, options);
+
+            var $root = $(this);
+
+            return this.each(function(idx) {
+                var $item = $(this);
+                var uri = $item.data(options.uriDataAttr);
+                var href = $item.data(options.hrefDataAttr);
+
+                $.ajax({
+                    url: href,
+                    dataType: 'json',
+                    success: function(response){
+                        var root = response.AssociationGraph.focusEntity;
+
+                        $root.append("<span><i class=\"glyphicon glyphicon-plus-sign\"></i></span>" + root.name);
+                    }
+                });
+            });
         }
 
     });
