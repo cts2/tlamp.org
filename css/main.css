@@ -5939,3 +5939,11 @@ input {
 .carousel-control {
     color:black;
 }
+
+.page {
+    min-height: 100%;
+}
+
+.intro-well {
+    margin-top: 24px;
+}

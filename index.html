@@ -44,7 +44,7 @@
                 <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#navigation"></button>
 
                 <!-- Logo goes here - replace the image with your -->
-                <a href="index.html" class="navbar-brand">TLAMP
+                <a href="#home" class="navbar-brand">TLAMP
                     <div id="logo" alt="TLAMP"></div>
                 </a>
 
@@ -56,6 +56,7 @@
 
                         <!-- Menu items go here -->
                         <li class="active hidden"><a href="#home">Home</a></li>
+                        <li><a href="#try">Try it out!</a></li>
                         <li><a href="#terminology">Terminology</a></li>
                         <li><a href="#widgets">Widgets</a></li>
                         <li><a href="#info">Features</a></li>
@@ -88,7 +89,7 @@
 
 <!--/////////////////////////////////////// HERO SECTION ////////////////////////////////////////-->
 
-<section id="hero">
+<section class="page" id="hero">
 
     <div class="container">
         <div class="row">
@@ -102,13 +103,18 @@
                         class="fa fa-group"></i></a>
             </div>
 
-            <div class="col-md-6 intro text-center">
+            <div class="col-md-6 text-center intro-well well">
                 <p class="lead">Find out more about how TLAMP can help you quickly get started with Terminology
-                    Services.</p>
+                    Services, or test out the REST API</p>
                 <a href="#terminology" class="btn btn-hg btn-primary">Learn More <i class="fa fa-info-circle"></i></a>
+                <a href="#try" class="btn btn-hg btn-inverse">Try a demo! <i class="fa fa-edit"></i></a></p>
+
             </div>
         </div>
+
         <!-- /row -->
+
+
     </div>
     <!-- /container -->
 
@@ -117,16 +123,41 @@
 <!--///////////////////////////////////////////////// end HERO SECTION ////////////////////////////////////////-->
 
 
+<section class="page" id="try">
+
+    <div class="container">
+
+        <header>
+            <h1>Try it out!</h1>
+
+            <p class="lead">Test out the CTS2 API by making a REST JSON call.</p>
+            <p>Browse the <a href="..api-link-here">API</a> if you need some help.</p>
+        </header>
+
+        <div class="row">
+            <div style="min-height: 800px">
+                <a class="jsbin-embed" href="http://jsbin.com/oZejAki/1/embed?js,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+            </div>
+        </div>
+
+        <!-- /row -->
+
+        <div class="row">
+            <a href="#widgets" class="btn btn-hg btn-primary">See them in action <i class="fa fa-arrow-down"></i></a>
+        </div>
+    </div>
+    <!-- /container -->
+
+</section>
+
 <!--/////////////////////////////////////// FEATURES SECTION ////////////////////////////////////////-->
 
-<section id="terminology">
+<section class="page" id="terminology">
 
     <div class="container">
 
         <header>
             <h1>Standard Terminologies</h1>
-
-            <p class="lead">The simulation platform focused on what matters to you.</p>
         </header>
 
         <div class="row">
@@ -139,9 +170,11 @@
                 </div>
                 -->
                 <h4>SNOMED CT®</h4>
-
-                <p>Geppetto is a web-based multi-algorithm, multi-scale simulation platform engineered to support
-                    the simulation of complex biological systems and their surrounding environment.</p>
+                    <p><i class="fa fa-quote-left"></i>
+                        SNOMED Clinical Terms (SNOMED CT) is the most comprehensive, multilingual clinical healthcare terminology in the world.
+                        <i class="fa fa-quote-right"></i>
+                    </p>
+                    <a href="http://www.ihtsdo.org/snomed-ct/">www.ihtsdo.org</a>
             </div>
 
             <!-- Feature Item 2 -->
@@ -152,11 +185,11 @@
                 </div>
                 -->
                 <h4>HL7®</h4>
-
-                <p>Engineered together with scientists, Geppetto lets you integrate different simulators and models.
-                    Independent modules allow the user to read different standard modeling formats and to simulate
-                    different
-                    aspects of reality.</p>
+                    <p><i class="fa fa-quote-left"></i>
+                        HL7 provides standards for interoperability that improve care delivery, optimize workflow, reduce ambiguity and enhance knowledge transfer among all of our stakeholders, including healthcare providers, government agencies, the vendor community, fellow SDOs and patients. In all of our processes we exhibit timeliness, scientific rigor and technical expertise without compromising transparency, accountability, practicality, or our willingness to put the needs of our stakeholders first.
+                        <i class="fa fa-quote-right"></i>
+                    </p>
+                    <a href="http://www.hl7.org/about/index.cfm?ref=nav">http://www.hl7.org</a>
             </div>
 
             <!-- Feature Item 3 -->
@@ -167,16 +200,20 @@
                 </div>
                 -->
                 <h4>LOINC®</h4>
+                    <p><i class="fa fa-quote-left"></i>
+                        <em>A universal code system for identifying laboratory and clinical observations.</em>
 
-                <p>Geppetto is entirely open source and engineers, scientists and developers are welcome to contribute
-                    to its development by adding functionality to existing modules or by creating new ones!</p>
+                        From serum levels of hepatitis B surface antigen to diastolic blood pressure, LOINC has standardized terms for all kinds of observations and measurements that enable exchange and aggregation of electronic health data from many independent systems.
+                        <i class="fa fa-quote-right"></i>
+                    </p>
+                    <a href="http://loinc.org/">http://loinc.org/</a>
             </div>
 
         </div>
         <!-- /row -->
 
         <div class="row">
-            <a href="#widgets" class="btn btn-hg btn-primary">See them in action <i class="fa fa-info-circle"></i></a>
+            <a href="#widgets" class="btn btn-hg btn-primary">See them in action <i class="fa fa-arrow-down"></i></a>
         </div>
     </div>
     <!-- /container -->
@@ -185,7 +222,7 @@
 
 <!--/////////////////////////////////////// end INFO SECTION ////////////////////////////////////////-->
 
-<section id="widgets">
+<section class="page" id="widgets">
     <div class="container">
         <div class="row">
             <p class="lead"><i class="fa fa-gears fa-2x"></i> Build tools and widgets using the CTS2 JSON format</p>
@@ -277,12 +314,16 @@
             </div>
         </div>
 
+        <div class="row">
+            <a href="#info" class="btn btn-hg btn-primary">Review some of TLAMP's features <i class="fa fa-arrow-down"></i></a>
+        </div>
+
     </div>
     <!-- /row -->
 
 </section>
 
-<section id="info">
+<section class="page" id="info">
     <!--/////////// And here's the gray background section! //////////-->
     <div class="info-section-gray" id="slideshow">
 
@@ -362,11 +403,17 @@
                     <p class="lead">TLAMP features to help you quickly utilize terminologies.</p>
 
                     <p>TLAMP is a Standards based RESTful service built on Open Source and freely available tools.</p>
+
+                    <div class="row">
+                        <a href="#getStarted" class="btn btn-hg btn-primary">Get Started! <i class="fa fa-arrow-down"></i></a>
+                    </div>
                 </div>
 
             </div>
+
             <!-- /row -->
         </div>
+
         <!-- /container -->
 
     </div>
@@ -377,14 +424,14 @@
 
 <!--/////////////////////////////////////// end INFO SECTION ////////////////////////////////////////-->
 
-<section id="getStarted">
+<section class="page" id="getStarted">
     <div class="info-section-white">
 
         <div class="container">
             <div class="row text-center">
 
                 <div class="col-md-12">
-                    <div class="row text-center"><i class="fa fa-github i10x"></i></div>
+                    <div class="row text-center"><i class="fa fa-rocket i10x"></i></div>
                     <h3>Get started!</h3>
 
                     <p class="lead">1. Download the Virtual Machine Image</p>
@@ -399,6 +446,10 @@
 
             </div>
             <!-- /row -->
+
+            <div class="row">
+                <a href="#getinvolved" class="btn btn-hg btn-primary">Get Involved! <i class="fa fa-arrow-down"></i></a>
+            </div>
         </div>
         <!-- /container -->
 
@@ -407,14 +458,14 @@
 </section>
 
 
-<section id="getinvolved">
+<section class="page" id="getinvolved">
     <div class="info-section-white">
 
         <div class="container">
             <div class="row text-center">
 
                 <div class="col-md-12">
-                    <div class="row text-center"><i class="fa fa-github i20x"></i></div>
+                    <div class="row text-center"><i class="fa fa-group i20x"></i></div>
                     <h3>Get involved!</h3>
 
                     <p class="lead">Help expand the CTS2 ecosystem</p>
@@ -442,6 +493,11 @@
 
             </div>
             <!-- /row -->
+
+            <div class="row">
+                <a href="#faq" class="btn btn-hg btn-primary">Have a Question? <i class="fa fa-arrow-down"></i></a>
+            </div>
+
         </div>
         <!-- /container -->
 
@@ -451,7 +507,7 @@
 
 <!--/////////////////////////////////////// FAQ SECTION ////////////////////////////////////////-->
 
-<section id="faq">
+<section class="page" id="faq">
 
     <div class="container">
 
