@@ -5947,3 +5947,7 @@ input {
 .intro-well {
     margin-top: 24px;
 }
+
+.twitter-typeahead {
+    width: 100%;
+}
