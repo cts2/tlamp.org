@@ -5946,6 +5946,7 @@ input {
 
 .intro-well {
     margin-top: 24px;
+    box-shadow: 20px 20px 20px #808080;
 }
 
 .twitter-typeahead {
